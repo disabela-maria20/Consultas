@@ -1,0 +1,147 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+body, html{/*fundo*/
+    background-image: url('../imagens/fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-width: 650px; /*menor tamnho de tela do navegador*/
+}
+
+#principal-cadastro,
+#principal-login{
+    background: rgba(255, 255, 255, 0.5);
+    width: 950px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    border-radius: 10px;
+}
+#coluna1{
+    float: right;
+    width:470px ;
+    height: 500px;
+}
+.texto{
+   margin-top: 35%;
+   
+}
+.texto span{
+    text-align: center;
+    font-size: 2em;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.3;
+    color: white;
+}
+#coluna2{
+    position: absolute;
+    width: 440px;
+    height: 550px;
+    border-radius: 10px;/*bordas arredondadas*/ 
+    margin-top: -25px;
+    margin-left: 40px;
+    background: white;
+    
+}
+/*Area de login*/
+#coluna2 img,
+#coluna3 img
+{
+    margin-top: 50px;
+    margin-left: 130px;
+    margin-bottom: 35px;
+}
+.form{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 20px;
+    height: 40px; /*aultura da caixa de logim e senha */
+    display: block;
+    width: 65%;
+    border-bottom: 1px solid #c9c9c9;
+    font-family: fantasy;
+    color: #9d9d9d;
+}
+div #usuario{
+    background: url('../imagens/usuario.png') no-repeat;
+    background-position: 10px;
+}
+div #senha{
+    background: url('../imagens/senha.png') no-repeat;
+    background-position: 10px;
+}
+div #nome{
+    background: url('../imagens/usuario.png') no-repeat;
+    background-position: 10px;
+}
+div #email{
+    background: url('../imagens/email.png') no-repeat;
+    background-position: 10px;
+}
+/*Botão entrar*/
+div .btn{
+    display: block;/*Centraliza e posiciona a botao*/
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 30%;
+    height: 40px;
+    cursor: pointer; /*Caracteristicas visuais*/
+    background: #70ca00;
+    color: white;
+    font-weight: bold;/*caracteristicas da font*/
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+div .btn:hover{
+    background-image: linear-gradient( 170deg, #70ca00, #a0ee41);
+}
+
+/*Botão Cadastro*/
+div a{
+    display: block;/*Centraliza e posiciona a botao*/
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 35%;
+    height: 40px; 
+    cursor: pointer; /*Caracteristicas visuais*/
+    background-color: #ABC9E1;
+    border: 1px solid white;
+    color: white;/*caracteristicas da font*/
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+div a:hover{
+    background: white;
+    color: #ABC9E1;
+}
+/*Tela de cadastro*/
+#coluna3{
+    float: right;
+    background: white;
+    margin-right: 40px;
+    margin-top: -25px;
+    border-radius: 10px;
+    width: 440px;
+    height: 550px;
+}
+#coluna4{
+    float: left;
+    width:470px ;
+    height: 500px;
+}
+

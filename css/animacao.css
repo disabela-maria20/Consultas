@@ -1,0 +1,55 @@
+/*Cadastro*/
+@keyframes delizar-direita-cadastro{
+    from{
+        transform: translateX(90%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes delizar-esquerda-cadastro{
+    from{
+        transform: translateX(-20%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+/*login*/
+@keyframes delizar-direita-login{
+    from{
+        transform: translateX(-90%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes delizar-esquerda-login{
+    from{
+        transform: translateX(20%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+/*Transição Cadastro */
+
+#coluna3{
+    animation-name: delizar-direita-cadastro;
+    animation-duration: 1s;
+}
+#principal-cadastro{
+    animation-name:  delizar-esquerda-cadastro;
+    animation-duration: 1s;
+}
+
+/*Transição Login*/
+
+#coluna2{
+    animation-name: delizar-direita-login;
+    animation-duration: 1s;
+}
+#principal-login{
+    animation-name: delizar-esquerda-login;
+    animation-duration: 1s;
+}
